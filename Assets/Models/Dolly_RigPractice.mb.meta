@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 2c49cee9c9c464c42a2a3c6c23175685
+timeCreated: 1431226561
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: LeftArm_JNT6
+    100004: LeftArm_JNT7
+    100006: LeftElbow_JNT4
+    100008: LeftElbow_JNT4 1
+    100010: LeftFootJnt
+    100012: LeftFootJnt 1
+    100014: LeftHand_JNT1
+    100016: LeftHand_JNT1 1
+    100018: LeftHand_JNT2
+    100020: LeftHand_JNT2 1
+    100022: LeftKnee_JNT
+    100024: LeftKnee_JNT 1
+    100026: LeftLeg_JNT
+    100028: LeftLeg_JNT1
+    100030: LeftShoulder_JNT5
+    100032: LeftShoulder_JNT5 1
+    100034: LeftWrist_JNT3
+    100036: LeftWrist_JNT3 1
+    100038: pCube7
+    100040: Spine_Head_JNT1
+    100042: Spine_Hip_JNT12
+    100044: Spine_JNT10
+    100046: Spine_JNT11
+    100048: Spine_JNT4
+    100050: Spine_JNT6
+    100052: Spine_JNT7
+    100054: Spine_JNT8
+    100056: Spine_JNT9
+    100058: Spine_Neck_JNT2
+    100060: Spint_JNT3
+    100062: Spint_JNT5
+    400000: //RootNode
+    400002: LeftArm_JNT6
+    400004: LeftArm_JNT7
+    400006: LeftElbow_JNT4
+    400008: LeftElbow_JNT4 1
+    400010: LeftFootJnt
+    400012: LeftFootJnt 1
+    400014: LeftHand_JNT1
+    400016: LeftHand_JNT1 1
+    400018: LeftHand_JNT2
+    400020: LeftHand_JNT2 1
+    400022: LeftKnee_JNT
+    400024: LeftKnee_JNT 1
+    400026: LeftLeg_JNT
+    400028: LeftLeg_JNT1
+    400030: LeftShoulder_JNT5
+    400032: LeftShoulder_JNT5 1
+    400034: LeftWrist_JNT3
+    400036: LeftWrist_JNT3 1
+    400038: pCube7
+    400040: Spine_Head_JNT1
+    400042: Spine_Hip_JNT12
+    400044: Spine_JNT10
+    400046: Spine_JNT11
+    400048: Spine_JNT4
+    400050: Spine_JNT6
+    400052: Spine_JNT7
+    400054: Spine_JNT8
+    400056: Spine_JNT9
+    400058: Spine_Neck_JNT2
+    400060: Spint_JNT3
+    400062: Spint_JNT5
+    2300000: pCube7
+    3300000: pCube7
+    4300000: pCube7
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
