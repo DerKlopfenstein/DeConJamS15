@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 5e9e851c0e142814dac026a256ba2ac0
 timeCreated: 1431191574
+=======
+guid: c97e56ad2953a514486b63aa218836d0
+timeCreated: 1431203988
+>>>>>>> AJ-BRANCH
 licenseType: Free
 NativeFormatImporter:
   userData: 

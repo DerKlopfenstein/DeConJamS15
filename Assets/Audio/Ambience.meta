@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 1e87ec0b44552458fb90c9e2e6653ce4
 folderAsset: yes
 timeCreated: 1431201401
+=======
+guid: a0c3a9e4cf3e02b4eb040740adab81ec
+folderAsset: yes
+timeCreated: 1431225722
+>>>>>>> AJ-BRANCH
 licenseType: Free
 DefaultImporter:
   userData: 
