@@ -36,6 +36,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &172418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 489022}
+  - 114: {fileID: 11439892}
+  m_Layer: 0
+  m_Name: Player Location
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
@@ -43,10 +59,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: -.656433702, z: 0, w: .754383802}
-  m_LocalPosition: {x: -2.36999989, y: .360000014, z: -5.32999992}
+  m_LocalPosition: {x: -13.0340004, y: .412, z: -2.2349999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
+  - {fileID: 489022}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &400002
@@ -61,6 +78,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 0
+--- !u!4 &489022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172418}
+  m_LocalRotation: {x: 0, y: .656433702, z: 0, w: .754383802}
+  m_LocalPosition: {x: -.158949479, y: -.0519999862, z: -.127185509}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400000}
+  m_RootOrder: 1
 --- !u!20 &2000000
 Camera:
   m_ObjectHideFlags: 1
@@ -272,10 +301,38 @@ MonoBehaviour:
     BobAmount: .100000001
   m_StepInterval: 4
   m_FootstepSounds:
-  - {fileID: 0}
-  - {fileID: 0}
-  m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
-  m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+  - {fileID: 8300000, guid: 3088a5acbcdb543388b706bb66be7df0, type: 3}
+  - {fileID: 8300000, guid: fa57a4de23c1747a38392dbecc9ec595, type: 3}
+  - {fileID: 8300000, guid: f94664b96fce14ddd8b10e29f7a99f35, type: 3}
+  - {fileID: 8300000, guid: 1319d0498360047119c99d2a9f3e6b3d, type: 3}
+  - {fileID: 8300000, guid: d07614a8314814f3eae6ed2c1f5e60b4, type: 3}
+  m_JumpSound: {fileID: 8300000, guid: 7a24b57c72dcb4b3db3db6778ce26231, type: 3}
+  m_LandSound: {fileID: 8300000, guid: 4993c29be2f134dcbb15c3f4e27d8f36, type: 3}
+--- !u!114 &11439892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1728340906, guid: 72889e3c7aec46c44a7dff748ed8303c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dataSerializer:
+    _serializedData: <component version="1.2" type="RAIN.Navigation.Targets.NavigationTargetRig"><fields><field
+      value="AlwaysOn" type="RAIN.Core.VisualModeEnum" id="_visualMode" /><field type="RAIN.Navigation.Targets.NavigationTarget"
+      reference="0" id="_target" /></fields><references><reference type="RAIN.Navigation.Targets.NavigationTarget"
+      refcount="1" id="0"><field value="Navigation Target" type="System.String" id="_targetName"
+      /><field value="0,0.6,0.6,1" type="UnityEngine.Color" id="_targetColor" /><field
+      value="-0.5" type="System.Single" id="_outlineColorOffset" /><field value="0.4"
+      type="System.Single" id="_selectionColorOffset" /><field type="UnityEngine.Transform"
+      id="_mountPoint" gameobject="0" /><field value="0.02090645,-1.1,-0.08731914"
+      type="UnityEngine.Vector3" id="_positionOffset" /><field value="0,0,0" type="UnityEngine.Vector3"
+      id="_angleOffset" /><field value="0.5" type="System.Single" id="_range" /></reference></references></component>
+    _serializedGameObjects:
+    - {fileID: 489022}
+    _serializedCustomData: []
 --- !u!143 &14300000
 CharacterController:
   m_ObjectHideFlags: 1
