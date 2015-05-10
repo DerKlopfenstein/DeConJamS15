@@ -42,7 +42,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: .359182537, z: 0, w: .933267355}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> TheEvanBranch
   m_LocalPosition: {x: -2.36999989, y: .360000014, z: -5.32999992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -196,7 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsWalking: 0
-  m_WalkSpeed: 5
+  m_WalkSpeed: 40
   m_RunSpeed: 10
   m_RunstepLenghten: .699999988
   m_JumpSpeed: 10
