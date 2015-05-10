@@ -12,7 +12,8 @@ GameObject:
   - 114: {fileID: 11400000}
   - 54: {fileID: 5400000}
   - 82: {fileID: 8200000}
-  m_Layer: 0
+  - 114: {fileID: 11424404}
+  m_Layer: 8
   m_Name: FPSController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +30,7 @@ GameObject:
   - 4: {fileID: 400002}
   - 20: {fileID: 2000000}
   - 81: {fileID: 8100000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirstPersonCharacter
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -45,7 +46,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 489022}
   - 114: {fileID: 11439892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player Location
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +60,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: -.656433702, z: 0, w: .754383802}
-  m_LocalPosition: {x: -13.0340004, y: .412, z: -2.2349999}
+  m_LocalPosition: {x: 22.3400002, y: 1.63, z: -.0500000007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
@@ -308,6 +309,17 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d07614a8314814f3eae6ed2c1f5e60b4, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 7a24b57c72dcb4b3db3db6778ce26231, type: 3}
   m_LandSound: {fileID: 8300000, guid: 4993c29be2f134dcbb15c3f4e27d8f36, type: 3}
+--- !u!114 &11424404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02d519f6fc3db445890b397d8eb807a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11439892
 MonoBehaviour:
   m_ObjectHideFlags: 1
