@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -583055799, guid: e0781e12b13132b45bf09c20fcd34d12, type: 3}
+  m_Script: {fileID: -583055799, guid: ca1162159b5e25941a97d063e87e1dce, type: 3}
   m_Name: RAINSettings
   m_EditorClassIdentifier: 
   _actionsDirectory: Assets/AI/Actions/
@@ -23,5 +23,5 @@ MonoBehaviour:
   _allowAutoUpdateCheck: 1
   _updateFrequencyHours: 24
   _showWelcomeWindow: 1
-  _projectSkin: {fileID: 11400000, guid: 2fb91efd31dc33c468be86842e14d204, type: 2}
-  _projectState: {fileID: 11400000, guid: 5d13894b4bd6e7745a886b8e52e5e336, type: 2}
+  _projectSkin: {fileID: 11400000, guid: c9a90210dc6e131468700faec84571df, type: 2}
+  _projectState: {fileID: 11400000, guid: 94f13a8d5e0653d4ba7a8ead5e87770e, type: 2}

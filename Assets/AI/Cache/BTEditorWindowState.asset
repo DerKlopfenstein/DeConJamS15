@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1149339567, guid: e0781e12b13132b45bf09c20fcd34d12, type: 3}
+  m_Script: {fileID: -1149339567, guid: ca1162159b5e25941a97d063e87e1dce, type: 3}
   m_Name: BTEditorWindowState
   m_EditorClassIdentifier: 
   Version: 21
@@ -27,12 +27,12 @@ MonoBehaviour:
     LastUpdate: 0
     LastModified: 0
     Errored: 0
-  - AssetPath: Assets/AI/BehaviorTrees/BasicFollow.asset
-    BehaviorTreeName: BasicFollow
+  - AssetPath: Assets/AI/BehaviorTrees/NewFollow.asset
+    BehaviorTreeName: NewFollow
     BehaviorTreeID: 1
     BehaviorTreeBindings: []
-    LastUpdate: 635667846776132977
-    LastModified: 635667846311795520
+    LastUpdate: 635668060038255312
+    LastModified: 635668059740645309
     Errored: 0
   TreeState:
     _branchRepo:
@@ -46,7 +46,7 @@ MonoBehaviour:
       _focused: 0
     - _fields:
       - _field: name
-        _currentValue: BasicFollow
+        _currentValue: NewFollow
         _recordChange: 1
         _changed: 0
       - _field: open
@@ -80,8 +80,8 @@ MonoBehaviour:
       _type: 4
       _stateIndex: 1
       _parent: 0
-      _lastUpdate: 635667846766086811
-      _children: 03000000
+      _lastUpdate: 635668060028233284
+      _children: 02000000
       _variables: 
       _focused: 0
     - _fields:
@@ -123,11 +123,11 @@ MonoBehaviour:
         _changed: 0
       _type: 19
       _stateIndex: 2
-      _parent: 0
-      _lastUpdate: 0
-      _children: 
+      _parent: 1
+      _lastUpdate: 635668059890177620
+      _children: 03000000
       _variables: 
-      _focused: 1
+      _focused: 0
     - _fields:
       - _field: name
         _currentValue: move
@@ -158,7 +158,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: movetarget
-        _currentValue: '"PlayerLoc"'
+        _currentValue: '"Player Location"'
         _recordChange: 1
         _changed: 0
       - _field: movespeed
@@ -183,9 +183,9 @@ MonoBehaviour:
         _changed: 0
       _type: 14
       _stateIndex: 3
-      _parent: 1
-      _lastUpdate: 635667846766086811
+      _parent: 2
+      _lastUpdate: 635668060028233284
       _children: 
       _variables: 
-      _focused: 1
+      _focused: 0
     _freeList: 
