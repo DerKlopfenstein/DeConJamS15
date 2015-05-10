@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: b7ccc80cbd085a24a8a9fa6238796819
+timeCreated: 1431229065
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: LeftArm_JNT6
+    100004: LeftElbow_JNT4__PartsUsable
+    100006: LeftFootJnt
+    100008: LeftHand_JNT1
+    100010: LeftHand_JNT2__Usable
+    100012: LeftKnee_JNT__Usable
+    100014: LeftLeg_JNT__Usable
+    100016: LeftShoulder_JNT5__Usable
+    100018: LeftWrist_JNT3__Usable
+    100020: pCube10
+    100022: pCube11
+    100024: pCube7
+    100026: pHelix4
+    100028: pHelix5
+    100030: pHelix6
+    100032: pHelix7
+    100034: RightArm_JNT7
+    100036: RightElbow_JNT4__PartsUsable
+    100038: RightFootJnt
+    100040: RightHand_JNT1
+    100042: RightHand_JNT2__Usable
+    100044: RightKnee_JNT__Usable
+    100046: RightLeg_JNT1__Usable
+    100048: RightShoulder_JNT5__Usable
+    100050: RightWrist_JNT3__Usable
+    100052: Spine_Head_JNT1
+    100054: Spine_Hip_JNT12
+    100056: Spine_JNT10__Usable
+    100058: Spine_JNT11__Use_ish
+    100060: Spine_JNT4__Usable
+    100062: Spine_JNT6__Use_ish
+    100064: Spine_JNT7
+    100066: Spine_JNT8__Use_ish
+    100068: Spine_JNT9__Use_ish
+    100070: Spine_Neck_JNT2_PartUsable
+    100072: Spint_JNT3
+    100074: Spint_JNT5_Use_ish
+    400000: //RootNode
+    400002: LeftArm_JNT6
+    400004: LeftElbow_JNT4__PartsUsable
+    400006: LeftFootJnt
+    400008: LeftHand_JNT1
+    400010: LeftHand_JNT2__Usable
+    400012: LeftKnee_JNT__Usable
+    400014: LeftLeg_JNT__Usable
+    400016: LeftShoulder_JNT5__Usable
+    400018: LeftWrist_JNT3__Usable
+    400020: pCube10
+    400022: pCube11
+    400024: pCube7
+    400026: pHelix4
+    400028: pHelix5
+    400030: pHelix6
+    400032: pHelix7
+    400034: RightArm_JNT7
+    400036: RightElbow_JNT4__PartsUsable
+    400038: RightFootJnt
+    400040: RightHand_JNT1
+    400042: RightHand_JNT2__Usable
+    400044: RightKnee_JNT__Usable
+    400046: RightLeg_JNT1__Usable
+    400048: RightShoulder_JNT5__Usable
+    400050: RightWrist_JNT3__Usable
+    400052: Spine_Head_JNT1
+    400054: Spine_Hip_JNT12
+    400056: Spine_JNT10__Usable
+    400058: Spine_JNT11__Use_ish
+    400060: Spine_JNT4__Usable
+    400062: Spine_JNT6__Use_ish
+    400064: Spine_JNT7
+    400066: Spine_JNT8__Use_ish
+    400068: Spine_JNT9__Use_ish
+    400070: Spine_Neck_JNT2_PartUsable
+    400072: Spint_JNT3
+    400074: Spint_JNT5_Use_ish
+    4300000: pCube7
+    4300002: pCube11
+    4300004: pHelix6
+    4300006: pHelix7
+    4300008: pCube10
+    4300010: pHelix4
+    4300012: pHelix5
+    9500000: //RootNode
+    13700000: pCube10
+    13700002: pCube11
+    13700004: pCube7
+    13700006: pHelix4
+    13700008: pHelix5
+    13700010: pHelix6
+    13700012: pHelix7
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

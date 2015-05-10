@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: b0f8e9ab0f7c4a649b82aa43afccf47d
+timeCreated: 1431229689
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: LeftArm_JNT6
+    100004: LeftElbow_JNT4__PartsUsable
+    100006: LeftFootJnt
+    100008: LeftHand_JNT1
+    100010: LeftHand_JNT2__Usable
+    100012: LeftKnee_JNT__Usable
+    100014: LeftLeg_JNT__Usable
+    100016: LeftShoulder_JNT5__Usable
+    100018: LeftWrist_JNT3__Usable
+    100020: RightArm_JNT7
+    100022: RightElbow_JNT4__PartsUsable
+    100024: RightFootJnt
+    100026: RightHand_JNT1
+    100028: RightHand_JNT2__Usable
+    100030: RightKnee_JNT__Usable
+    100032: RightLeg_JNT1__Usable
+    100034: RightShoulder_JNT5__Usable
+    100036: RightWrist_JNT3__Usable
+    100038: Spine_Head_JNT1
+    100040: Spine_Hip_JNT12
+    100042: Spine_JNT10__Usable
+    100044: Spine_JNT11__Use_ish
+    100046: Spine_JNT4__Usable
+    100048: Spine_JNT6__Use_ish
+    100050: Spine_JNT7
+    100052: Spine_JNT8__Use_ish
+    100054: Spine_JNT9__Use_ish
+    100056: Spine_Neck_JNT2_PartUsable
+    100058: Spint_JNT3
+    100060: Spint_JNT5_Use_ish
+    400000: //RootNode
+    400002: LeftArm_JNT6
+    400004: LeftElbow_JNT4__PartsUsable
+    400006: LeftFootJnt
+    400008: LeftHand_JNT1
+    400010: LeftHand_JNT2__Usable
+    400012: LeftKnee_JNT__Usable
+    400014: LeftLeg_JNT__Usable
+    400016: LeftShoulder_JNT5__Usable
+    400018: LeftWrist_JNT3__Usable
+    400020: RightArm_JNT7
+    400022: RightElbow_JNT4__PartsUsable
+    400024: RightFootJnt
+    400026: RightHand_JNT1
+    400028: RightHand_JNT2__Usable
+    400030: RightKnee_JNT__Usable
+    400032: RightLeg_JNT1__Usable
+    400034: RightShoulder_JNT5__Usable
+    400036: RightWrist_JNT3__Usable
+    400038: Spine_Head_JNT1
+    400040: Spine_Hip_JNT12
+    400042: Spine_JNT10__Usable
+    400044: Spine_JNT11__Use_ish
+    400046: Spine_JNT4__Usable
+    400048: Spine_JNT6__Use_ish
+    400050: Spine_JNT7
+    400052: Spine_JNT8__Use_ish
+    400054: Spine_JNT9__Use_ish
+    400056: Spine_Neck_JNT2_PartUsable
+    400058: Spint_JNT3
+    400060: Spint_JNT5_Use_ish
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
