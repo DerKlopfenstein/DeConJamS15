@@ -741,30 +741,40 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 1.04999995
   Loop: 0
   Mute: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 50
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - time: 0
+    - time: .0199999996
       value: 1
       inSlope: 0
-      outSlope: 0
+      outSlope: -1.02040815
+      tangentMode: 0
+    - time: .294582605
+      value: .776949644
+      inSlope: -2.04861164
+      outSlope: -2.04861164
+      tangentMode: 0
+    - time: .585982442
+      value: .0950446725
+      inSlope: -.416516989
+      outSlope: -.416516989
       tangentMode: 0
     - time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: .0267532449
+      outSlope: .0267532449
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -772,7 +782,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -810,8 +820,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_FootstepSounds:
-  - {fileID: 8300000, guid: 40ba440d7ee69394aa2148801101b19c, type: 3}
-  - {fileID: 8300000, guid: d5982a456cd82b04a9c3d015db89db18, type: 3}
+  - {fileID: 8300000, guid: 4aa5d823c1b783345a8634f6c95b2f12, type: 3}
+  - {fileID: 8300000, guid: 251cfbe2076ab1046ada08005db090be, type: 3}
+  - {fileID: 8300000, guid: 9a68117fa0356ba4eae853bf994beb60, type: 3}
+  - {fileID: 8300000, guid: 8683bed8f8e761b4aaeed62da54108d9, type: 3}
 --- !u!1 &767480181
 GameObject:
   m_ObjectHideFlags: 0
