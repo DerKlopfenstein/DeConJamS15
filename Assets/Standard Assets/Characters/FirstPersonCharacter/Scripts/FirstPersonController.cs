@@ -212,7 +212,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             // On standalone builds, walk/run speed is modified by a key press.
             // keep track of whether or not the character is walking or running
 			if(runCount == 0){
-            m_IsWalking = !Input.GetKey(KeyCode.JoystickButton8);
+            m_IsWalking = !Input.GetKey(KeyCode.LeftShift);
 			}
 #endif
             // set the desired speed to be walking or running
